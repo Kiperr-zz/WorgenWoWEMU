@@ -54,7 +54,7 @@ enum Opcodes
     CMSG_CHAR_ENUM                                   = 0x04A8B, // 14545
     CMSG_CHAR_DELETE                                 = 0x01ED3, // 14545
     SMSG_CHAR_CREATE                                 = 0x04C5B, // 14545
-    SMSG_CHAR_ENUM                                   = 0x0C727, //
+    SMSG_CHAR_ENUM                                   = 0x0A05C, // 14545
     SMSG_CHAR_DELETE                                 = 0x048CE, // 14545
     CMSG_PLAYER_LOGIN                                = 0x010D1, //
     SMSG_NEW_WORLD                                   = 0x00F01, //
