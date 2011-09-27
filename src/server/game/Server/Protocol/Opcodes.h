@@ -65,7 +65,7 @@ enum Opcodes
     SMSG_GAMETIME_UPDATE                             = 0x06AFE, //
     CMSG_GAMETIME_SET                                = 0x10008, //
     SMSG_GAMETIME_SET                                = 0x0B26F, //
-    CMSG_GAMESPEED_SET                               = 0x10009, // 
+    CMSG_GAMESPEED_SET                               = 0x10009, //
     SMSG_GAMESPEED_SET                               = 0x0AAB2, //
     CMSG_SERVERTIME                                  = 0x1000B, //
     SMSG_SERVERTIME                                  = 0x07236, //
@@ -232,11 +232,11 @@ enum Opcodes
     MSG_MOVE_SET_SWIM_SPEED_CHEAT                    = 0x1005C, //
     MSG_MOVE_SET_SWIM_SPEED                          = 0x1005D, //
     MSG_MOVE_SET_SWIM_BACK_SPEED_CHEAT               = 0x1005E, //
-    MSG_MOVE_SET_SWIM_BACK_SPEED                     = 0x1005F, // 
+    MSG_MOVE_SET_SWIM_BACK_SPEED                     = 0x1005F, //
     MSG_MOVE_SET_ALL_SPEED_CHEAT                     = 0x10060, //
     MSG_MOVE_SET_TURN_RATE_CHEAT                     = 0x10061, //
     MSG_MOVE_SET_TURN_RATE                           = 0x10062, //
-    MSG_MOVE_TOGGLE_COLLISION_CHEAT                  = 0x10063, // 
+    MSG_MOVE_TOGGLE_COLLISION_CHEAT                  = 0x10063, //
     MSG_MOVE_SET_FACING                              = 0x09848, //
     MSG_MOVE_SET_PITCH                               = 0x0B861, //
     MSG_MOVE_WORLDPORT_ACK                           = 0x05050, //
@@ -697,7 +697,7 @@ enum Opcodes
     SMSG_PET_BROKEN                                  = 0x0FE3A, //
     MSG_MOVE_FEATHER_FALL                            = 0x10120, //
     MSG_MOVE_WATER_WALK                              = 0x10121, //
-    CMSG_SERVER_BROADCAST                            = 0x10122, // 
+    CMSG_SERVER_BROADCAST                            = 0x10122, //
     CMSG_SELF_RES                                    = 0x0CCFE, // 14545
     SMSG_FEIGN_DEATH_RESISTED                        = 0x0BA2B, //
     CMSG_RUN_SCRIPT                                  = 0x10124, //
@@ -742,7 +742,7 @@ enum Opcodes
     CMSG_MOVE_STOP_SWIM_CHEAT                        = 0x1013A, //
     SMSG_FORCE_WALK_SPEED_CHANGE                     = 0x1013B, //
     CMSG_FORCE_WALK_SPEED_CHANGE_ACK                 = 0x1013C, //
-    SMSG_FORCE_SWIM_BACK_SPEED_CHANGE                = 0x1013D, // 
+    SMSG_FORCE_SWIM_BACK_SPEED_CHANGE                = 0x1013D, //
     CMSG_FORCE_SWIM_BACK_SPEED_CHANGE_ACK            = 0x1013E, //
     SMSG_FORCE_TURN_RATE_CHANGE                      = 0x1013F, //
     CMSG_FORCE_TURN_RATE_CHANGE_ACK                  = 0x10140, //
@@ -821,7 +821,7 @@ enum Opcodes
     SMSG_GHOSTEE_GONE                                = 0x1016A, //
     CMSG_GM_UPDATE_TICKET_STATUS                     = 0x1016B, //
     SMSG_GM_TICKET_STATUS_UPDATE                     = 0x0B6BA, //
-    MSG_SET_DUNGEON_DIFFICULTY                       = 0x0A23E, // 
+    MSG_SET_DUNGEON_DIFFICULTY                       = 0x0A23E, //
     CMSG_GMSURVEY_SUBMIT                             = 0x0BEBB, //
     SMSG_UPDATE_INSTANCE_OWNERSHIP                   = 0x07A2B, //
     CMSG_IGNORE_KNOCKBACK_CHEAT                      = 0x1016D, //
@@ -1042,7 +1042,7 @@ enum Opcodes
     CMSG_GET_MIRRORIMAGE_DATA                        = 0x0EEEA, //
     SMSG_MIRRORIMAGE_DATA                            = 0x08AFB, // 14545
     SMSG_FORCE_DISPLAY_UPDATE                        = 0x022AE, //
-    SMSG_SPELL_CHANCE_RESIST_PUSHBACK                = 0x101EA, // 
+    SMSG_SPELL_CHANCE_RESIST_PUSHBACK                = 0x101EA, //
     CMSG_IGNORE_DIMINISHING_RETURNS_CHEAT            = 0x101EB, //
     SMSG_IGNORE_DIMINISHING_RETURNS_CHEAT            = 0x101EC, //
     CMSG_KEEP_ALIVE                                  = 0x0E6BF, //
@@ -1212,10 +1212,10 @@ enum Opcodes
     CMSG_EJECT_PASSENGER                             = 0x03E6E, //
     SMSG_PET_GUIDS                                   = 0x0EE2F, //
     SMSG_CLIENTCACHE_VERSION                         = 0x088F2, // 14545
-    SMSG_ITEM_REFUND_INFO_RESPONSE                   = 0x10260, // 
+    SMSG_ITEM_REFUND_INFO_RESPONSE                   = 0x10260, //
     CMSG_ITEM_REFUND_INFO                            = 0x01C7E, // 14545
     CMSG_ITEM_REFUND                                 = 0x0762A, //
-    SMSG_ITEM_REFUND_RESULT                          = 0x10263, // 
+    SMSG_ITEM_REFUND_RESULT                          = 0x10263, //
     CMSG_CORPSE_MAP_POSITION_QUERY                   = 0x0DC7F, // 14545
     SMSG_CORPSE_MAP_POSITION_QUERY_RESPONSE          = 0x06E73, //
     CMSG_LFG_SET_ROLES_2                             = 0x10266, //
@@ -1231,10 +1231,10 @@ enum Opcodes
     SMSG_ARENA_OPPONENT_UPDATE                       = 0x1026E, //
     SMSG_ARENA_TEAM_CHANGE_FAILED_QUEUED             = 0x0A22B, //
     SMSG_MULTIPLE_PACKETS                            = 0x02A76, //
-    SMSG_FORCE_UNK1_SPEED_CHANGE                     = 0x1026F, //
-    CMSG_FORCE_UNK1_SPEED_CHANGE_ACK                 = 0x10270, //
-    SMSG_FORCE_UNK2_SPEED_CHANGE                     = 0x10271, //
-    CMSG_FORCE_UNK2_SPEED_CHANGE_ACK                 = 0x10272, //
+    SMSG_MOVE_GRAVITY_DISABLE                        = 0x1026F,
+    CMSG_MOVE_GRAVITY_DISABLE_ACK                    = 0x10270,
+    SMSG_MOVE_GRAVITY_ENABLE                         = 0x10271,
+    CMSG_MOVE_GRAVITY_ENABLE_ACK                     = 0x10272,
     SMSG_MOVE_LEVITATING                             = 0x10273, //
     SMSG_SPLINE_MOVE_UNKNOWN_1235                    = 0x10274, //
     SMSG_SPLINE_MOVE_UNKNOWN_1236                    = 0x10275, //
@@ -1261,7 +1261,7 @@ enum Opcodes
     CMSG_GMRESPONSE_RESOLVE                          = 0x0363E, //
     SMSG_GMRESPONSE_STATUS_UPDATE                    = 0x0F233, //
     CMSG_WORLD_STATE_UI_TIMER_UPDATE                 = 0x06222, //
-    SMSG_WORLD_STATE_UI_TIMER_UPDATE                 = 0x100B6, // 
+    SMSG_WORLD_STATE_UI_TIMER_UPDATE                 = 0x100B6, //
     CMSG_CHAR_RACE_CHANGE                            = 0x0DC57, // 14545
     SMSG_TALENTS_INVOLUNTARILY_RESET                 = 0x03ABE, //
     SMSG_UNKNOWN_1276                                = 0x10284, //
@@ -1308,7 +1308,7 @@ enum Opcodes
     CMSG_RETURN_TO_GRAVEYARD                         = 0x0B8EB, //
     CMSG_VIOLENCE_LEVEL                              = 0x08842, //
     CMSG_LOG_DISCONNECT                              = 0x00920, //
-    MSG_CHECK_CONNECTION                             = 0x04F57, //
+    MSG_CHECK_CONNECTION                             = 0x04E77,
     SMSG_COMPRESSED_CHAR_ENUM                        = 0x0F645, //
     CMSG_UNREGISTER_ALL_ADDON_PREFIXES               = 0x01115, //
     CMSG_REQUEST_CATEGORY_COOLDOWNS                  = 0x0B8E3, //
