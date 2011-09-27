@@ -1136,6 +1136,7 @@ void WorldSession::HandlePlayerLogin(LoginQueryHolder * holder)
 
     m_playerLoading = false;
 
+    SendStatusOfQuestGivers();
     sScriptMgr->OnPlayerLogin(pCurrChar);
     delete holder;
 }
@@ -2035,7 +2036,7 @@ uint64 WorldSession::GetRealGUID(uint8 packetGuid, uint8 byte, std::string Error
             number = packetGuid;
         else
             number = byte;
-     
+
         if(number % 2 == 0)
         {
            if (i == 0)
