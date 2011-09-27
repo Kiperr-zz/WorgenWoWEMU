@@ -1308,7 +1308,7 @@ enum Opcodes
     CMSG_RETURN_TO_GRAVEYARD                         = 0x0B8EB, //
     CMSG_VIOLENCE_LEVEL                              = 0x08842, //
     CMSG_LOG_DISCONNECT                              = 0x00920, //
-    MSG_CHECK_CONNECTION                             = 0x04E77, // 14545
+    MSG_CHECK_CONNECTION                             = 0x04F57, // 14545
     SMSG_COMPRESSED_CHAR_ENUM                        = 0x0F645, //
     CMSG_UNREGISTER_ALL_ADDON_PREFIXES               = 0x01115, //
     CMSG_REQUEST_CATEGORY_COOLDOWNS                  = 0x0B8E3, //
