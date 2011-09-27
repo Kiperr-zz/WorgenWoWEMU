@@ -286,7 +286,7 @@ enum Opcodes
     SMSG_TEXT_EMOTE                                  = 0x09E5A, // 14545
     CMSG_AUTOEQUIP_GROUND_ITEM                       = 0x10085, //
     CMSG_AUTOSTORE_GROUND_ITEM                       = 0x10086, //
-    CMSG_AUTOSTORE_LOOT_ITEM                         = 0x0FE7F, //
+    CMSG_AUTOSTORE_LOOT_ITEM                         = 0x0D876, // 14545
     CMSG_STORE_LOOT_IN_SLOT                          = 0x10088, //
     CMSG_AUTOEQUIP_ITEM                              = 0x0B2F6, //
     CMSG_AUTOSTORE_BAG_ITEM                          = 0x07E6A, //
@@ -537,9 +537,9 @@ enum Opcodes
     CMSG_UNLEARN_SKILL                               = 0x0B2EE, //
     SMSG_REMOVED_SPELL                               = 0x098FE, // 14545
     CMSG_DECHARGE                                    = 0x100E2, //
-    CMSG_GMTICKET_CREATE                             = 0x02223, //
+    CMSG_GMTICKET_CREATE                             = 0x00A7B, // 14545
     SMSG_GMTICKET_CREATE                             = 0x0AAEF, //
-    CMSG_GMTICKET_UPDATETEXT                         = 0x06A2B, //
+    CMSG_GMTICKET_UPDATETEXT                         = 0x08A7B, // 14545
     SMSG_GMTICKET_UPDATETEXT                         = 0x0F62B, //
     SMSG_ACCOUNT_DATA_TIMES                          = 0x05EE2, // 14545
     CMSG_REQUEST_ACCOUNT_DATA                        = 0x08AF2, // 14545
@@ -549,13 +549,13 @@ enum Opcodes
     SMSG_PLAYER_DIFFICULTY_CHANGE                    = 0x0D846, // 14545
     CMSG_GM_TEACH                                    = 0x100E5, //
     CMSG_GM_CREATE_ITEM_TARGET                       = 0x100E6, //
-    CMSG_GMTICKET_GETTICKET                          = 0x032A2, //
+    CMSG_GMTICKET_GETTICKET                          = 0x0985F, // 14545
     SMSG_GMTICKET_GETTICKET                          = 0x0F66B, //
     CMSG_UNLEARN_TALENTS                             = 0x100E8, //
     SMSG_UPDATE_INSTANCE_ENCOUNTER_UNIT              = 0x03EF2, //
     SMSG_GAMEOBJECT_DESPAWN_ANIM                     = 0x032F7, //
     MSG_CORPSE_QUERY                                 = 0x03232, //
-    CMSG_GMTICKET_DELETETICKET                       = 0x0FE22, //
+    CMSG_GMTICKET_DELETETICKET                       = 0x0C87F, // 14545
     SMSG_GMTICKET_DELETETICKET                       = 0x0F6F2, //
     SMSG_CHAT_WRONG_FACTION                          = 0x02233, //
     CMSG_GMTICKET_SYSTEMSTATUS                       = 0x07E67, //
@@ -649,8 +649,8 @@ enum Opcodes
     CMSG_REQUEST_PARTY_MEMBER_STATS                  = 0x0266B, //
     CMSG_GROUP_SWAP_SUB_GROUP                        = 0x0E222, //
     CMSG_RESET_FACTION_CHEAT                         = 0x1010E, //
-    CMSG_AUTOSTORE_BANK_ITEM                         = 0x03E7A, //
-    CMSG_AUTOBANK_ITEM                               = 0x0B6AE, //
+    CMSG_AUTOSTORE_BANK_ITEM                         = 0x01C5F, // 14545
+    CMSG_AUTOBANK_ITEM                               = 0x08C56, // 14545
     MSG_QUERY_NEXT_MAIL_TIME                         = 0x0FA62, //
     SMSG_RECEIVED_MAIL                               = 0x07EEB, //
     SMSG_RAID_GROUP_ONLY                             = 0x10111, //
@@ -1269,7 +1269,7 @@ enum Opcodes
     CMSG_READY_FOR_ACCOUNT_DATA_TIMES                = 0x0CCDB, // 14545
     CMSG_QUERY_QUESTS_COMPLETED                      = 0x10285, //
     SMSG_QUERY_QUESTS_COMPLETED_RESPONSE             = 0x07AFE, //
-    CMSG_GM_REPORT_LAG                               = 0x0E2A6, //
+    CMSG_GM_REPORT_LAG                               = 0x09C6B, // 14545
     SMSG_CORPSE_NOT_IN_INSTANCE                      = 0x0BAB7, //
     CMSG_SET_ALLOW_LOW_LEVEL_RAID1                   = 0x10284, //
     CMSG_SET_ALLOW_LOW_LEVEL_RAID2                   = 0x10285, //
