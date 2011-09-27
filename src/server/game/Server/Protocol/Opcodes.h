@@ -51,7 +51,7 @@ enum Opcodes
     SMSG_GODMODE                                     = 0x076E7, //
     SMSG_DESTRUCTIBLE_BUILDING_DAMAGE                = 0x0BA6E, //
     CMSG_CHAR_CREATE                                 = 0x01AC6, // 14545
-    CMSG_CHAR_ENUM                                   = 0x01091, //
+    CMSG_CHAR_ENUM                                   = 0x04A8B, // 14545
     CMSG_CHAR_DELETE                                 = 0x01ED3, // 14545
     SMSG_CHAR_CREATE                                 = 0x04C5B, // 14545
     SMSG_CHAR_ENUM                                   = 0x0C727, //
